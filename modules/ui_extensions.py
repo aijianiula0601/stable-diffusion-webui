@@ -19,7 +19,7 @@ available_extensions = {"extensions": []}
 
 
 def check_access():
-    assert not shared.cmd_opts.disable_extension_access, "extension access disabled because of command line flags"
+    assert not shared.cmd_opts.disable_extension_access, f"extension access disabled because of command line flags, shared.cmd_opts.disable_extension_access:{shared.cmd_opts.disable_extension_access}"
 
 
 def apply_and_restart(disable_list, update_list):
