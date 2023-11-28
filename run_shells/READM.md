@@ -24,5 +24,8 @@
 
     再在目录下面：git clone https://huggingface.co/Runwayml/stable-diffusion-v1-5
 
+- 启动
+
+  bash webui.sh --listen --port 2001
 
     
