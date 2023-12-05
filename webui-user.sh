@@ -5,6 +5,7 @@
 
 # Install directory without trailing slash
 #install_dir="/home/$(whoami)"
+install_dir="/workspace/hjh/pycharm_projects/image/text2img/tmp"
 
 # Name of the subdirectory
 clone_dir="stable-diffusion-webui"
@@ -13,7 +14,7 @@ clone_dir="stable-diffusion-webui"
 #export COMMANDLINE_ARGS=""
 
 # python3 executable
-#python_cmd="python3"
+python_cmd="/opt/conda/envs/sda/bin/python"
 
 # git executable
 #export GIT="git"
@@ -36,11 +37,13 @@ clone_dir="stable-diffusion-webui"
 
 # Fixed git commits
 #export STABLE_DIFFUSION_COMMIT_HASH=""
-#export TAMING_TRANSFORMERS_COMMIT_HASH=""
 #export CODEFORMER_COMMIT_HASH=""
 #export BLIP_COMMIT_HASH=""
 
 # Uncomment to enable accelerated launch
 #export ACCELERATE="True"
+
+# Uncomment to disable TCMalloc
+#export NO_TCMALLOC="True"
 
 ###########################################
